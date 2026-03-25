@@ -1,0 +1,17 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── AutoGen 0.7.5 (the 0.4.x autogen-agentchat release maps to autogen 0.7.5) ──
+autogen-agentchat==0.4.9
+autogen-ext[openai]==0.4.9
+
+# ── LLM / API ────────────────────────────────────────────────────────────────
+openai>=1.30.0              # OpenAI-compatible client (used by autogen-ext)
+httpx>=0.27.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0        # .env file loading
+nest-asyncio>=1.6.0         # async in Streamlit
+
+# ── Optional / Dev ────────────────────────────────────────────────────────────
+black>=24.0.0               # code formatting (dev only)
