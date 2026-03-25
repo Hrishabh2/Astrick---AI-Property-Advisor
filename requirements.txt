@@ -14,4 +14,6 @@ python-dotenv>=1.0.0        # .env file loading
 nest-asyncio>=1.6.0         # async in Streamlit
 
 # ── Optional / Dev ────────────────────────────────────────────────────────────
-black>=24.0.0               # code formatting (dev only)
+black>=24.0.0     
+
+tavily          # code formatting (dev only)
