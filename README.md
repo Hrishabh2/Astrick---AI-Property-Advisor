@@ -109,7 +109,7 @@ TAVILY_API_KEY=your_tavily_api_key
 streamlit run app.py
 ```
 
-App runs at 👉 **http://localhost:8501**
+App runs at 👉 **https://astrick-ai-property-advisor.onrender.com**
 
 ---
 
